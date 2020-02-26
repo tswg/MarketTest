@@ -1,0 +1,12 @@
+.idea/
+logs/
+out/
+build/
+target/
+.allure/
+allure-results/
+
+*.class
+*.iml
+/src/test/resources/chromedriver.exe
+/src/test/resources/geckodriver.exe
