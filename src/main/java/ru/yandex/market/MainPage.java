@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Main {
+public class MainPage {
 
     private WebDriver driver;
 
-    public Main(WebDriver driver) {
+    public MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
@@ -20,31 +20,17 @@ public class Main {
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement searchButton;
 
-    @FindBy(xpath = "//div[@class='_3Lwc_UVFq4']")
-    private WebElement allCategoriesButton;
-
-    @FindBy(xpath = "//a[contains(text(), 'Мобильные телефоны')]")
-    private WebElement mobilePhonesButton;
-
-    public Main writeSearchRequest(String request) {
+    //ввод поискового запроса
+    public MainPage writeSearchRequest(String request) {
         searchLine.click();
         searchLine.clear();
         searchLine.sendKeys(request);
         return this;
     }
 
-    public Main clickSearchButton() {
+    //кликнуть кнопку "найти"
+    public MainPage clickSearchButton() {
         searchButton.click();
-        return this;
-    }
-
-    public Main clickAllCategoriesButton() {
-        allCategoriesButton.click();
-        return this;
-    }
-
-    public Main clickMobilePhonesButton() {
-        mobilePhonesButton.click();
         return this;
     }
 }

@@ -14,7 +14,6 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.navigate().to("https://market.yandex.ru/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 

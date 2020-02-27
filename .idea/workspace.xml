@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0493a041-02dd-487b-a510-0b80d71b90f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/market/catalog/MobilePhones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/market/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/market/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/market/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/market/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/market/catalog/MobilePhones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/market/catalog/MobilePhonesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchProduct.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +82,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SearchProduct.firstOption">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.market.Main" />
+      <module name="MarketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.market.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchProduct.firstOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarketTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,6 +118,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SearchProduct.firstOption" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SearchProduct.search" />
       </list>
     </recent_temporary>
@@ -128,8 +138,17 @@
       <workItem from="1582744710241" duration="390000" />
       <workItem from="1582745130938" duration="940000" />
       <workItem from="1582746115148" duration="157000" />
-      <workItem from="1582746311711" duration="7244000" />
+      <workItem from="1582746311711" duration="7643000" />
+      <workItem from="1582820830777" duration="14771000" />
     </task>
+    <task id="LOCAL-00001" summary="add steps">
+      <created>1582754594546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582754594546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="add steps" />
   </component>
 </project>
